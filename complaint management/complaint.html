@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complaint Form</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+    }
+    .container {
+      background-color: rgba(255,255,255,0.95);
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 700px;
+      margin: 0 auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #388e3c;
+    }
+    .success-message {
+      display: none;
+      background-color: #e0ffe0;
+      border: 2px solid #4CAF50;
+      padding: 20px;
+      margin-top: 20px;
+      text-align: center;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Register Your Complaint</h1>
+    <form id="complaint-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="description" placeholder="Describe your complaint" required></textarea>
+      <input type="text" id="category" placeholder="Category" disabled />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="success-message" id="success-message">
+      <h2>Thank you for submitting your complaint!</h2>
+      <p>Your complaint has been submitted successfully. We will review it shortly.</p>
+      <a href="complaints-list.html"><button>Back to List</button></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

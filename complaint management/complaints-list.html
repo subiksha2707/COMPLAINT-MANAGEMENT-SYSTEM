@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Complaints List</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      width: 80%;
+      max-width: 700px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .complaint-item {
+      background-color: #43add6;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      color: white;
+      font-weight: bold;
+    }
+    .complaint-item:hover {
+      background-color: #3688a6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Complaint Categories</h1>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=1'">Noise Complaint</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=2'">Water Supply Issue</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=3'">Electricity Problem</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=4'">Sanitation Issue</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=5'">Security Concern</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=6'">Parking Problem</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=7'">Lift Not Working</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=8'">Play Area Maintenance</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=9'">Leakage Issue</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=10'">Intercom System</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=11'">Stray Dog Menace in Society Premises</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=12'">Sewage Overflow</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=13'">Theft Report</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=14'">Fire Alarm Malfunctioning</div>
+    <div class="complaint-item" onclick="window.location.href='complaint.html?id=15'">Others</div>
+  </div>
+</body>
+</html>

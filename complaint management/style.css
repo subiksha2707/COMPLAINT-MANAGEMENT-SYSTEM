@@ -1,0 +1,114 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Universal Container Style */
+  .container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Inputs & Textareas */
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Page-Specific Backgrounds */
+  .index-page {
+    background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216');
+  }
+  
+  .login-page {
+    background-image: url('https://images.unsplash.com/photo-1584433144859-1fc04f94f157');
+  }
+  
+  .complaints-list-page {
+    background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b');
+  }
+  
+  .complaint-page {
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');
+  }
+  
+  /* Success Message Styling */
+  #success-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0ffe0;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  #success-message h2 {
+    color: #4CAF50;
+  }
+  
+  #success-message p {
+    font-size: 16px;
+  }
+  
+  #success-message button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #success-message button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Complaint Item */
+  .complaint-item {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #43add6;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .complaint-item:hover {
+    background-color: #2e91b3;
+  }
+  
